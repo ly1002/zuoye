@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>个人简历</title>
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
+	<!-- js -->
+</head>
+<body>
+<div id="home" class="banner">
+	<div class="container">
+		<div class="banner-grids">
+			<div class="col-md-4 navigation">
+				<div class="nav-right">
+					<ul class="nav1">
+						<li><a class="scroll" href="#about">个人简介</a></li>
+						<li><a class="scroll" href="#portfolio">作品集</a></li>
+						<li><a class="scroll" href="#contact">联系方式及留言</a></li>
+					</ul>			
+				</div>
+			</div>
+			<div class="col-md-8 banner-image text-center">
+				<img src="images/banner.jpeg" alt=""/>
+			</div>
+		</div>
+	</div>
+</div>
+<div width="100%" height="2px" class="banner">&nbsp;</div>
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+				<h3>基本资料</h3>
+				<p>热爱学习</p>
+		</div>
+		<div class="about-grids">
+		   	<div class="col-md-6 about-grid">
+		   		<h4>自我介绍</h4>
+		   		<p>我叫罗阳，今年19岁，来自美丽的大巴山-通江，现就读于四川华新现代职业学院，是一名大一的学生，我热爱运动，勤奋好学，热情友好，我很喜欢玩滑板，旅游，摄影，学习自己感兴趣的东西，如果你愿意，那么-很高兴认识你。</p>
+		   	</div>
+		   	<div class="col-md-6 about-grid">
+		   		<h4>学习和社会经历</h4>
+		   		<p>2013年9月中西安警校影视动画中级培训
+
+　　2012年7月中山英语考研培训班学习
+
+　　2014年9月-2016年6月在通江县实验中学进行计算机专业培训  2017年在华新学院自学ps和学习html网页。在高考结束和上学后用自己闲暇空余时间常做一些工作和兼职来锻炼提高自己，有一点阅历和经验。</p>
+		   	</div>
+		   	<div class="clearfix"> </div>
+		</div>   
+	</div>
+</div>
+<!-- //about -->
+<div id="portfolio" class="gallery">
+		<div class="container">
+				<script src="js/jquery.chocolat.js"></script>
+			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+			<!--light-box-files -->
+			<script type="text/javascript" charset="utf-8">
+			$(function() {
+				$('.gallery a').Chocolat();
+			});
+			</script>
+			<h3>作品</h3>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a1.jpg" alt="" />
+							<div>
+								<h5>PS</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a2.jpg" alt="" />
+							<div>
+								<h5>PS</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/a3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a3.jpg" alt="" />
+							<div>
+								<h5>PS</h5>
+								
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
+				</ul>
+			</section>
+				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+				<script type="text/javascript">
+					$(function() {
+						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+					});
+				</script>
+        </div>	
+</div>
+<!--//gallery-->
+<!-- get-in -->
+<div id="contact" class="get-in-touch">
+	<div class="container">
+		<div class="get-info text-center">
+			<h3>photoshop</h3>
+			<h4><i>追求品质</i></h4>
+		</div>
+	</div>
+</div>
+<!-- //get-in -->
+<!-- contact-us -->
+<div class="contact-us">
+	<div class="container">
+		<div class="contact-grids">
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+				<p>四川成都华新现代职业学院</p>
+			</div>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+				<p><a href="mailto:info@example.com">499477094@qq.com</a></p>
+			</div>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+				<p>15884992952</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="contact-info">
+			<form>
+				<input type="text" placeholder="您的名字" required>
+				<input type="text" placeholder="您的邮箱" required>
+				<input type="text" placeholder="职业" required>
+				<textarea placeholder="留言" required></textarea>
+				<input type="submit" value="发布">
+			</form>
+		</div>
+	</div>
+</div>
+<!-- //contact-us -->
+</body>
+</html>
